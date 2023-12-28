@@ -1,0 +1,38 @@
+.para-font {
+    font-family: 'GFS Didot', serif;
+}
+
+.head-font2 {
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.25rem;
+}
+
+.head-font {
+    font-family: 'Afacad', sans-serif;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #6096B4, #93BFCF, #BDCDD6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.btn-primary, .btn-primary:visited, .btn-primary:focus {
+    background-color: #93BFCF;
+    border-color: #93BFCF;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #6096B4;
+    border-color: #6096B4;
+}
